@@ -60,32 +60,3 @@ The style guide we are going to follow is [PEP8 Standard](https://www.python.org
 ### Terminal Interface & GUI
 
 We plan to use a combination of terminal interface and GUI. For terminal interface, the user will input the raw string of the function and some other user input options indicating the interval. For GUI, it will show the plot.
-
-## Weekly functional goals
-
-### Week 1
-
-1. All node classes in Parser are implemented and can simply calculate its value based on its children's values.
-2. Plotter is able to read data from calculator function, could compute the points for x,y axis and able to output data to Interface.
-3. Interface is able to read the string from the users input and able to plot the x,y-axis on the final plot.
-
-### Week 2
-
-1. Add functionality to support abbreviation of mathematical formulas.
-2. Tree constrcutor is implemented (half done).
-3. Plotter is able to transform the points' coordinate to its actual position on the output plot and is able to detect cases when the input points requires further transformation.
-4. Interface is able to plot the points after its coordinate transformation.
-
-### Week 3
-
-1. Tree class is finished implmenting and is able to calculate the value given a grammar tree and an `x`'s value..
-2. Calculator is implemented and is able to calcualte the 2D array.
-3. Plotter is able to futher transform the data based on its coordinate and also transform the fixed x,y axis accordingly.
-4. Interface is able to plot the points and the axis after proper resize
-
-### Week 4
-
-1. Combine all modules.
-2. Calculator for both function plotter and derivation function are done.
-3. Add more symbols on the plot for users and also debug the code with test cases.
-4. Manually test interface.
