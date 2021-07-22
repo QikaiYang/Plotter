@@ -1,4 +1,4 @@
-# CS 242 Final Project Proposal - Function Plotter
+# Function Plotter
 
 This is a function plotter built in Python. The functionality should be similar to this [web](https://www.desmos.com/calculator) except we are building this by Python locally instead of using Javascripts.
 
